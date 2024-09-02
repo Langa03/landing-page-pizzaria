@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page de uma pizzaria em HTML, CSS e JavaScript">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Pizzaria, Landing-page">
+    <meta name="author" content="Gabriel Langa">
+    <!-- CSS import -->
     <link rel="stylesheet" href="../css/login.css">
     <!-- Font Import -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -15,42 +19,19 @@
 <body>
     <header>
         <nav id="navbar">
+
             <!-- Menu -->
             <i id="nav_logo" class="fa-solid fa-pizza-slice fa-bseat"> Mussarello's Pizzaria</i>
 
-            <ul id="nav_list">
-                <li class="nav-item active">
-                    <a href="../index.html">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
-                </li>
-            </ul>
             <div id="buttons_menu">
-                <a id="menu_btn" class="btn-default" href="#">Peça aqui</a>
-                <a id="login_btn" class="btn-default" href="#">Login</a>
+                <a id="return_btn" class="btn-default" href="../index.html">Voltar</a>
                 <button id="mobile_btn"> <i class="fa-solid fa-bars"></i> </button>
             </div>
-
         </nav>
 
         <!-- Menu mobile -->
         <div id="mobile_menu">
-            <ul id="mobile_nav_list">
-                <li class="nav-item">
-                    <a href="../index.html">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#menu">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials">Avaliações</a>
-                </li>
-            </ul>
-            <button id="mobile_menu_btn" class="btn-default">Peça aqui</button>
+            <a id="mobile_return_btn" class="btn-default" href="../index.html">Voltar</a>
         </div>
     </header>
 
@@ -59,7 +40,6 @@
             <div class="shape"></div>
 
             <!--Login forms-->
-            <!--link login: https://preview.colorlib.com/theme/bootstrap/login-form-18/#-->
             <div id="container">
                 <div id="login_container">
                     <h2 class="">Faça o seu login</h2>
@@ -91,7 +71,7 @@
             <span id="copyright">&copy 2024 Gabriel Langa</span>
 
             <div class="social-media-buttons">
-                <a href="http://wa.me/5547999999999" target="_blank">
+                <a href="https://wa.me/5547999999999" target="_blank">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
                 <a href="https://www.instagram.com/mussarellospizzaria/" target="_blank">
@@ -106,16 +86,12 @@
 
     </footer>
 
+     <!-- Scripts imports -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../js/script.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 
-
 </body>
-
 </html>
-
-<!-- https://stock.adobe.com/br/images/id/574504526?clickref=1011lyqdgRcu&mv=affiliate&mv2=Freepik&as_camptype=
-&as_channel=affiliate&as_source=partnerize&as_campaign=Freepik&as_content=api&as_audience=srp&sdid=6WTV6YJ5&asset_id=574504526 -->

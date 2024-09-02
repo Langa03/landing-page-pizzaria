@@ -3,20 +3,8 @@
 
 :root {
     --color-primary-1: #f9eec9;
-    --color-secundary-1: #ffd685;
+    --color-secondary-1: #ffd685;
     --color-titles-1: #b4000f;
-}
-
-pallete {
-    color: #f9eec9;
-    color: #d3b786;
-    color: #e4b455;
-    color: #90a74c;
-    color: #af672d;
-    color: #b4000f;
-    color: #597718;
-    color: #770d15;
-    color: #58483a;
 }
 
 *  {
@@ -44,7 +32,7 @@ section {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background-color: var(--color-secundary-1);
+    background-color: var(--color-secondary-1);
     color: #1d1d1dad;
     border-radius: 12px;
     padding: 10px 14px;
@@ -81,15 +69,6 @@ section {
     box-shadow: 0px 0px 12px 8px #00000024;
 }
 
-.section-title {
-    color: #e9a209;
-    font-size: 1.5rem;
-}
-
-.section-title-subtitle {
-    font-size: 2.1rem;
-}
-
 /* Header */
 
 header {
@@ -113,33 +92,16 @@ header {
     color: var(--color-titles-1);
 }
 
-#nav_list {
-    display: flex;
-    list-style: none;
-    gap: 48px;
-}
-
-.nav-item a {
-    text-decoration: none;
-    color: #1d1d1dad;
-    font-weight: 600;
-}
-
-.nav-item.active a {
-    color: #0b0b0bad;
-    border-bottom: 3px solid var(--color-secundary-1);
-}
-
 #buttons_menu {
     display: flex;
 }
 
-#login_btn {
+#return_btn {
     background-color: var(--color-primary-1);
     margin-left: 0.5rem;
 }
 
-#login_btn:hover {
+#return_btn:hover {
     background-color: #ffebaa;
 }
 
@@ -148,7 +110,7 @@ header {
 }
 
 @media screen and (max-width: 1170px) {
-    #nav_list, #menu_btn, #login_btn {
+    #menu_btn, #return_btn {
         display: none;
     }
     #mobile_btn {
@@ -168,17 +130,12 @@ header {
     align-items: center;
 }
 
-#mobile_nav_list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: 12px 0px;
+#mobile_return_btn {
+    background-color: var(--color-primary-1);
+    padding: 2px 14px 2px 14px;
+    border-radius: 6px;
 }
 
-#mobile_nav_list .nav-item {
-    list-style: none;
-    text-align: center;
-}
 
 /* Home */
 
@@ -207,7 +164,7 @@ header {
 }
 
 .shape {
-    background-color: var(--color-secundary-1);
+    background-color: var(--color-secondary-1);
     width: 50%;
     height: 100%;
     position: absolute;
@@ -222,6 +179,7 @@ header {
    #home {
     min-height: 100%;
     padding-top: 0px;
+    min-height: calc(100vh - 170px);
    }
 
    #banner, #banner img, #home .shape {
@@ -289,6 +247,13 @@ header {
 
 }
 
+@media screen and (max-width: 600px) {
+    #remember_label a {
+        float: left;
+        margin-top: 10px;
+    }
+}
+
 #submit_login {
     width: 70%;
     margin-top: 40px;
@@ -297,7 +262,7 @@ header {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: var(--color-secundary-1);
+    background-color: var(--color-secondary-1);
     color: #505050;
     font-weight: 600;
     box-shadow: 0px 0px 20px 3px #00000024;
@@ -318,7 +283,7 @@ header {
 /* Footer */
 
 footer {
-    background-color: var(--color-secundary-1);
+    background-color: var(--color-secondary-1);
 }
 
 footer img {

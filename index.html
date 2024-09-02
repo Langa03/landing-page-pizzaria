@@ -3,18 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Landing page de uma pizzaria em HTML, CSS e JavaScript">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Pizzaria, Landing-page">
+    <meta name="author" content="Gabriel Langa">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS import -->
     <link rel="stylesheet" href="css/index.css">
-    <!-- Font Import -->
+    <!-- Font import -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mussarello's Pizzaria</title>
 </head>
 
 <body>
     <header>
         <nav id="navbar">
+
             <!-- Menu -->
             <i id="nav_logo" class="fa-solid fa-pizza-slice fa-bseat"> Mussarello's Pizzaria</i>
 
@@ -29,12 +34,14 @@
                     <a href="#testimonials">Avaliações</a>
                 </li>
             </ul>
+
             <div id="buttons_menu">
-                <a id="menu_btn" class="btn-default" href="#">Peça aqui</a>
-                <a id="login_btn" class="btn-default" href="./pages/login.html">Login</a>
+                <a id="menu_btn" class="btn-default"
+                    href="https://api.whatsapp.com/send/?phone=5547999999999&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido"
+                    target="_blank">Peça aqui</a>
+                <a id="login_btn" class="btn-default btn-background" href="./pages/login.html">Login</a>
                 <button id="mobile_btn"> <i class="fa-solid fa-bars"></i> </button>
             </div>
-            
         </nav>
 
         <!-- Menu mobile -->
@@ -50,8 +57,7 @@
                     <a href="#testimonials">Avaliações</a>
                 </li>
             </ul>
-            <button id="mobile_menu_btn" class="btn-default">Peça aqui</button>
-            <a id="mobile_login_btn" class="" href="./pages/login.html">Login</a>
+            <a id="mobile_login_btn" class="btn-default" href="./pages/login.html">Login</a>
         </div>
     </header>
 
@@ -71,7 +77,8 @@
                 </p>
 
                 <div id="container_buttons">
-                    <a href="#" class="btn-default">Ver Cardápio</a>
+                    <a href="https://api.whatsapp.com/send/?phone=5547999999999&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido"
+                        target="_blank" class="btn-default">Clique aqui e peça pelo Whatsapp</a>
                     <a href="tel:47999999999" id="phone_button">
                         <button class="btn-default">
                             <i class="fa-solid fa-phone"></i>
@@ -81,7 +88,7 @@
                 </div>
 
                 <div class="social-media-buttons">
-                    <a href="http://wa.me/5547999999999" target="_blank">
+                    <a href="https://wa.me/5547999999999" target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                     <a href="https://www.instagram.com/mussarellospizzaria/" target="_blank">
@@ -109,7 +116,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img class="dish-image" src="./imgs/prato1.png">
+                    <img class="dish-image" src="./imgs/dish1.png">
 
                     <h3 class="dish-title">
                         Pizza de Calabresa
@@ -125,11 +132,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(15)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$42,99</h4>
+                        <h4>R$39,99</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -141,7 +148,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img class="dish-image" src="imgs/prato2.png">
+                    <img class="dish-image" src="imgs/dish2.png">
 
                     <h3 class="dish-title">
                         Pizza Mexicana
@@ -157,11 +164,11 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(8)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$42,99</h4>
+                        <h4>R$45,99</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -174,7 +181,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img class="dish-image" src="imgs/prato3.png">
+                    <img class="dish-image" src="imgs/dish3.png">
 
                     <h3 class="dish-title">
                         Pizza de Frango com Catupiry
@@ -190,7 +197,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(21)</span>
                     </div>
 
                     <div class="dish-price">
@@ -207,7 +214,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img class="dish-image" src="imgs/prato4.png">
+                    <img class="dish-image" src="imgs/dish4.png">
 
                     <h3 class="dish-title">
                         Pizza Margherita
@@ -223,7 +230,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(11)</span>
                     </div>
 
                     <div class="dish-price">
@@ -271,7 +278,7 @@
 
                         <div class="feedback-content">
                             <p>
-                                Fulano
+                                Fulana
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -281,7 +288,7 @@
                                 </span>
                             </p>
                             <p>
-                                "Muito bom gostei da pizza"
+                                "Amei a pizza, muito bem recheada"
                             </p>
                         </div>
                     </div>
@@ -301,7 +308,7 @@
                                 </span>
                             </p>
                             <p>
-                                "Muito bom gostei da pizza"
+                                "Adoro, sempre peço deles"
                             </p>
                         </div>
                     </div>
@@ -311,7 +318,7 @@
 
                         <div class="feedback-content">
                             <p>
-                                Fulano
+                                Fulana
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -321,7 +328,7 @@
                                 </span>
                             </p>
                             <p>
-                                "Muito bom gostei da pizza"
+                                "A de frango com catupiry é minha preferida"
                             </p>
                         </div>
                     </div>
@@ -330,7 +337,7 @@
 
                 <button class="btn-default">Ver mais avaliações</button>
 
-            </div>  
+            </div>
         </section>
     </main>
 
@@ -343,7 +350,7 @@
             <span id="copyright">&copy 2024 Gabriel Langa</span>
 
             <div class="social-media-buttons">
-                <a href="http://wa.me/5547999999999" target="_blank">
+                <a href="https://wa.me/5547999999999" target="_blank">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
                 <a href="https://www.instagram.com/mussarellospizzaria/" target="_blank">
@@ -358,16 +365,12 @@
 
     </footer>
 
+    <!-- Scripts imports -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 
-
 </body>
-
 </html>
-
-<!-- https://stock.adobe.com/br/images/id/574504526?clickref=1011lyqdgRcu&mv=affiliate&mv2=Freepik&as_camptype=
-&as_channel=affiliate&as_source=partnerize&as_campaign=Freepik&as_content=api&as_audience=srp&sdid=6WTV6YJ5&asset_id=574504526 -->
