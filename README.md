@@ -1,3 +1,2 @@
 # Mussarello's Pizzaria
-Esta landing page foi feita com HTML, CSS e Javascript. O projeto foi pensado levando em consideração o produto que é vendido.
-Projeto ainda em desenvolvimento.
+Esta landing page foi utilizado o HTML, CSS e Javascript. Onde toda a base foi feita com HTML e CSS e a parte de animações e menu mobile com JavaScript.
